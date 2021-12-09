@@ -8,13 +8,12 @@ public class User implements Serializable {
     private String address;
     private String sex;
 
-    public String getName() {
-        return name;
+    public User() {
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+
+
+
 
     public Integer getAge() {
         return age;
